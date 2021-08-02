@@ -73,6 +73,20 @@ html {
   font-size: 1rem;
 }
 
+@media screen and (max-width: 992px) {
+  .about-img::before {
+    display: none;
+  }
+
+  .about-img {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+
+
+
 #timeline-me {
   background-color: #823137;
   width: 100vw;
